@@ -10,10 +10,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "dev": "vite",
     "test": "vitest",
-    "test:ui": "vitest --ui",
-
+    "test-ui": "vitest --ui"
   },
   "dependencies": {
     "react": "^19.2.0",
@@ -27,6 +25,7 @@
     "@storybook/addon-vitest": "^10.2.13",
     "@storybook/react-vite": "^10.2.13",
     "@tailwindcss/cli": "^4.2.1",
+    "@tailwindcss/vite": "^4.2.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
