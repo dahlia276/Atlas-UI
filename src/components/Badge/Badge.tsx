@@ -1,4 +1,4 @@
-import { HTMLAttributes } from 'react'
+import { type HTMLAttributes } from 'react'
 import { cn } from '../../utils/cn'
 
 type BadgeVariant = 'default' | 'success' | 'warning' | 'error' | 'info'
